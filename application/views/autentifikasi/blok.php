@@ -38,10 +38,10 @@
 
         <!-- 404 Error Text -->
         <div class="text-center">
-            <div class="error mx-auto" data-text="404">404</div>
-            <p class="lead text-gray-800 mb-5">Halaman Tidak Ada</p>
-            <p class="text-gray-500 mb-0">Halaman tidak ada, silahkan kembali ke halaman sebelumnya</p>
-            <a href="<?= base_url('user'); ?>">&larr; Kembali ke Dasboard</a>
+            <div class="error mx-auto" data-text="403">403</div>
+            <p class="lead text-gray-800 mb-5">Akses Dihentikan</p>
+            <p class="text-gray-500 mb-0">Anda dilarang mengakses halaman ini</p>
+            <a href="<?= base_url('user'); ?>">&larr; Kembali ke Dashboard</a>
         </div>
 
     </div>
