@@ -21,4 +21,10 @@ class Admin extends CI_Controller
         $this->load->view('templates/footer');
     }
     public function error() { $this->load->view('admin/404'); }
+
+    public function logout()
+    {
+        $item = array('email','role_id');
+        $this->session->unset_userdata($item);
+    }
 }
